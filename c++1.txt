@@ -1,0 +1,75 @@
+#include<iostream>
+using namespace std;
+int main(){
+int a;
+int b;
+cout <<"enter 'a'"<<endl;
+cin>>a;
+cout <<"enter 'b'"<<endl;
+cin>>b;
+cout <<"sum="<<(a+b)<<endl;
+cout <<"diff="<<(a-b)<<endl;
+cout <<"pro="<<(a*b)<<endl;
+cout <<"div="<<(a/b)<<endl;
+cout <<"mod="<<(a%b)<<endl;
+return 0;}
+
+#include<iostream>
+using namespace std;
+int main(){
+int n=-45;
+if(n>=0){
+cout<< "n is positive\n";
+}else{
+    cout<<"n is negative\n";
+}
+return 0;}
+
+
+#include<iostream>
+using namespace std;
+int main(){
+int age;
+cout<<"enter age\n";
+cin>>age;
+if(age>=18){
+cout<< "you can vote\n";
+}else{
+    cout<<"you can't vote\n";
+}
+return 0;}
+
+
+#include<iostream>
+using namespace std;
+int main(){
+int n;
+cout<<"enter n\n";
+cin>>n;
+if(n%2==0){
+cout<< "n is even\n";
+}else{
+    cout<<"n is odd\n";
+}
+return 0;}
+
+
+
+#include<iostream>
+using namespace std;
+int main(){
+int marks;
+cout<<"enter marks\n";
+cin>>marks;
+if(marks>=90){
+cout<< "grade A\n";
+}else if(marks<90 && marks>=80){
+    cout<<"grade B\n";
+}else if(marks<80 && marks>=70){
+    cout<<"grade C\n";
+}else if(marks<70 && marks>=60){
+    cout<<"grade D\n";
+}else if(marks<60 ){
+    cout<<"grade F\n";
+}
+return 0;}
